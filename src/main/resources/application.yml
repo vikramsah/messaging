@@ -1,4 +1,7 @@
 ---
+spring:
+  application:
+    name:messaging
 
 kafka:
   bootstrap-servers: localhost:9092
