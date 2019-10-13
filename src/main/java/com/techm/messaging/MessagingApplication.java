@@ -48,6 +48,7 @@ public class MessagingApplication {
 		return new MessageServiceImpl();
 	}
 	
+	
 	public Map<String, Object> producerConfigs() {
 		Map<String, Object> props = new HashMap<>();
 	    // list of host:port pairs used for establishing the initial connections to the Kakfa cluster
